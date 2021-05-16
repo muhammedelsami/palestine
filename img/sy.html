@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Creative Box Border Hover Effects</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+		<div class="box">
+				<img src="sss.png" alt="">
+        		<img src="sss.png" alt="">
+        		<img src="sss.png" alt="">
+			
+		</div>
+		
+	
+	<svg>
+      <filter id="wavy">
+        <feTurbulence x="0" y="0" id="turbulence" baseFrequency="0.01" numOctaves="5" seed="2">
+          <animate attributeName="baseFrequency" dur="60s" values="0.01;0.05;0.01" repeatCount="indefinite" />
+        </feTurbulence>
+        <feDisplacementMap in="SourceGraphic" scale="30" />
+      </filter>
+  	</svg>
+</body>
+</html>
